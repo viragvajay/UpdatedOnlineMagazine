@@ -1,0 +1,92 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.bodycontainer {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: #fffacd;
+    border: solid 0.2px;
+    margin: 10px;
+}
+
+.banner_container {
+    width: 90%;
+    align-content: center;
+}
+
+.banner {
+    align-content: center;
+    display: block;
+}
+
+.headercontainer {
+    align-content: center;
+}
+
+.opening_container {
+    align-content: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.DIY_container {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+h2 {
+    font-family: "Helvetica Neue";
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+
+h4 {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+p {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+p1 {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 5px;
+}
+
+.left_box {
+    width: 70%;
+    border: dotted black 0.2px;
+    margin-right: 20px;
+    padding-left: 2px;
+    background-color: oldlace;
+}
+
+.right_box {
+    width: 30%;
+    opacity: 90%;
+    padding: 15px;
+}
+
+.pic {
+    width: auto;
+    height: 200px;
+}

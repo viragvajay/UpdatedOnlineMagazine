@@ -1,0 +1,199 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.bodycontainer {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    background-color: #FFDDDD;
+    border: solid 0.2px;
+    margin: 10px;
+}
+
+/*navigation container formatting*/
+.logo_image {
+    display: flex;
+    width: 50px;
+}
+
+.navigationcontainer {
+    height: 35px;
+    border: solid black 0.5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.headercontainer {
+    align-content: center;
+}
+
+.navigation_element {
+    margin-left: 20px;
+}
+
+.link {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 9px;
+    color: dimgray;
+}
+
+.link:hover {
+    color: palevioletred;
+}
+
+/*end of navigation container formatting*/
+
+/*banner formatting*/
+.banner {
+    width: 90%;
+    display: block;
+    justify-content: center;
+    margin: 0 100px 0 100px;
+}
+
+.banner_container {
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    opacity: 75%;
+    border: solid black 0.5px;
+}
+
+.subtext {
+    margin-left: 25px;
+
+}
+
+
+/* menubox formatting*/
+h1 {
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+p {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 8px;
+    justify-content: center;
+}
+
+.menubox {
+    height: 90px;
+    background-color: white;
+    opacity: 80%;
+    align-content: space-around;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    border: solid black 0.5px;
+
+}
+
+
+.menupics {
+    margin-right: 50px;
+    height: 82px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menubox_container {}
+
+
+/*end of menubox formatting*/
+
+/* subscriptioncontainer formatting*/
+
+.subscriptioncontainer {
+    height: 20px;
+    width: 100%;
+    background-color: ghostwhite;
+    opacity: 80%;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.newsletter {
+    border: 0.2px solid gray;
+    height: 80px;
+    width: auto;
+    background-color: gainsboro;
+    opacity: 80%;
+    margin-bottom: 30px;
+}
+
+.headline {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.label {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+    font-size: 8px;
+}
+
+.form_element {
+    border: 0.2px solid gray;
+    font-family: "Helvetica Neue";
+    font-weight: bolder;
+    font-size: 8px;
+}
+
+/* end of subscriptioncontainer formatting*/
+
+.bottom_container {
+    height: 90px;
+    opacity: 80%;
+    align-content: space-around;
+    justify-content: block;
+    display: flex;
+    margin: 20px;
+    padding-bottom: 20px
+}
+
+/*some container formatting*/
+
+.some {
+    color: grey;
+    margin: 10px;
+}
+
+.join {
+    text-align: center;
+}
+
+.socialicons {
+    justify-content: center;
+    display: flex;
+}
+
+
+@media only screen and(min-width:680px) {
+    .menubox {
+        width: 50%;
+    }
+
+    .banner {
+        padding-left: 800px;
+    }
+}

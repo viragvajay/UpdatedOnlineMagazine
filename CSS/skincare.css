@@ -1,0 +1,109 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.bodycontainer {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: #beefed;
+    border: solid 0.2px;
+    margin: 10px;
+}
+
+/* opening container formatting*/
+.opening_container {
+    padding: 10px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    opacity: 85%;
+}
+
+/* opening container formatting
+.opening_container {
+    width: 90%;
+    height: 500px;
+    justify-content: center;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 30px;
+} */
+
+/*formatting of the left-box*/
+.left_box {
+    width: 35%;
+    height: 330px;
+    border: solid black 0.2px;
+    margin-right: 10px;
+    padding-left: 4px;
+}
+
+li {
+    font-size: 11px;
+    margin-bottom: 7px;
+}
+
+/*formatting of the right-box*/
+.right_box {
+    width: 70%;
+    height: 330px;
+    background-color: white;
+    padding: 15px;
+}
+
+p {
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 15px;
+}
+
+h4 {
+
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.readmore {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 8px;
+    color: dimgrey;
+    font-size: 10px;
+}
+
+.routine {}
+
+.pic {
+    height: 75px;
+    width: auto;
+    margin-top: 15px;
+}
+
+p1 {
+    font-family: "Helvetica Neue";
+    font-style: italic;
+    font-size: 5px;
+}
+
+/*article section -same attributes like opening countainer*/
+
+.steps_heading {
+    font-family: "Helvetica Neue";
+    font-style: oblique;
+    font-size: 15px;
+    color: #006666;
+}
