@@ -123,7 +123,7 @@ p {
 .subscriptioncontainer {
     height: 20px;
     width: 100%;
-    background-color: ghostwhite;
+
     opacity: 80%;
     justify-content: center;
     display: flex;
@@ -171,6 +171,55 @@ p {
     padding-bottom: 20px
 }
 
+/*popup window*/
+.modal-content {
+    background-color: #fefefe;
+    margin: 2% auto 15% auto;
+    /* top:2% ,center ,bottom:15% ,center */
+    padding: 25px;
+    border: 1px solid #888888;
+    /* shadow background */
+    width: 400px;
+    /* more or less depending on content and screen size */
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, -.8)
+}
+
+.modal_privacy {
+    background-color: #fefefe;
+    margin: 2% auto 2% auto;
+    /* top:2% ,center ,bottom:2% ,center */
+    padding: 25px;
+    border: 1px solid #888888;
+    /* shadow background */
+    width: 400px;
+    /* more or less depending on content and screen size */
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, -.8)
+}
+
+.images {
+    max-width: 100%;
+}
+
+.close {
+    float: right;
+    margin-right: 10px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    animation: animatezoom 0.6s;
+    /* call animatezoom keyframes - beuszas sebessege*/
+}
+
+
+
 /*some container formatting*/
 
 .some {
@@ -188,9 +237,15 @@ p {
 }
 
 
-@media only screen and(min-width:680px) {
+@media only screen and (min-width:680px) {
     .menubox {
         width: 50%;
+        align-content: center;
+    }
+
+    .menubox_container {
+        justify-content: ;
+        display: flex;
     }
 
     .banner {
