@@ -1,0 +1,139 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.bodycontainer {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    background-color: #E6FFE6;
+    border: solid 0.2px;
+    align-items: center;
+
+}
+
+/*BANNER FORMATTING*/
+
+.banner {
+    align-content: center;
+}
+
+.banner_container {
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    border: solid black 0.5px;
+}
+
+.headercontainer {
+    align-content: center;
+    text-align: justify;
+}
+
+/* article containers*/
+.article_container {
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: 10px;
+    background-color: white;
+    border: solid black 0.5px;
+    margin-bottom: 20px;
+
+}
+
+
+.left_box {
+    width: 59%;
+    padding: 5px;
+    text-align: center;
+}
+
+.right_box {
+    width: 39%;
+    opacity: 90%;
+    padding: 15px;
+}
+
+/* TEXT FORMATTING*/
+.bigheading {
+    font-size: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.subheading {
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    font-size: 10px;
+}
+
+.article_text {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+p {
+    font-size: 6px;
+}
+
+.credit {
+    font-size: 6px;
+    font-style: italic;
+}
+
+li {
+    font-size: 9px;
+}
+
+.picture {
+    width: 100%;
+}
+
+@media only screen and (min-width:680px) {
+    .bigheading {
+        font-size: 30px;
+        color: sandybrown;
+        font-weight: 300;
+    }
+
+    .heading {
+        font-size: 22px;
+    }
+
+    .subheading {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+
+    .article_text {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .credit {
+        font-size: 10px;
+    }
+
+    li {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+}

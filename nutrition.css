@@ -12,16 +12,19 @@
     font-weight: lighter;
     background-color: #E6FFE6;
     border: solid 0.2px;
+    align-items: center;
 
 }
 
-/8BANNER FORMATTING*/ .banner {
+/*BANNER FORMATTING*/
+
+.banner {
     align-content: center;
 }
 
 .banner_container {
     padding: 10px;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     display: flex;
     margin: 20px;
@@ -33,31 +36,47 @@
     align-content: center;
 }
 
+/* article containers*/
+
+.allarticle_container {
+    align-items: center;
+}
+
 .bigsquare_container {
+    width: 90%;
     padding: 10px;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     display: flex;
-    margin: 0 20px 0 20px;
     background-color: white;
-    opacity: 75%;
     border: solid black 0.5px;
+    text-align: justify;
+
 }
 
 .left_container {
-    width: 60% border-right: solid 1px;
+    width: 60%;
+    border-right: solid 1px;
 }
 
 . right_container {
-    width: 40%
+    width: 40%;
+    border: solid 1px;
 }
 
-.bodytype {
-    height: 150px;
+.body_types {
+    width: 110px;
+}
+
+.bodytypes {
+    height: 20%;
     width: auto;
 }
 
-p7 {
-    font-family: cursive;
+
+.subtext {
+    margin-left: 25px;
     font-size: 8px;
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
 }

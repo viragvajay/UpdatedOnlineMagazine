@@ -16,14 +16,23 @@
 }
 
 /* BANNER FORMATTING*/
-.banner_container {
+/*banner formatting*/
+.banner {
     width: 90%;
-    align-content: center;
+    display: block;
+    justify-content: center;
+    text-align: center;
 }
 
-.banner {
+.banner_container {
+    padding: 10px;
     align-content: center;
-    display: block;
+    justify-content: center;
+    display: flex;
+    margin: 20px;
+    background-color: white;
+    opacity: 75%;
+    border: solid black 0.5px;
 }
 
 .headercontainer {
@@ -32,10 +41,16 @@
 
 .opening_container {
     align-content: center;
-    align-content: center;
     justify-content: center;
     display: flex;
     padding: 10px;
+}
+
+.avocado_container {
+    align-content: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
 }
 
 .DIY_container {
@@ -79,6 +94,7 @@ p1 {
     margin-right: 20px;
     padding-left: 2px;
     background-color: oldlace;
+    text-align: justify;
 }
 
 .right_box {
@@ -90,4 +106,42 @@ p1 {
 .pic {
     width: auto;
     height: 200px;
+}
+
+
+.some_container {
+    padding-top: 10px;
+}
+
+.some {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.join {
+    text-align: center;
+    color: grey;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+@media only screen and (min-width:680px) {
+    .pic {
+        height: auto;
+    }
+
+    .opening_container {
+        height: auto;
+    }
+
+    .left_box {
+        line-height: 200%;
+    }
 }

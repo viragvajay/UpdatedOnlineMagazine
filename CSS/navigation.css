@@ -1,0 +1,35 @@
+/*navigation container formattingS*/
+.logo_image {
+    display: flex;
+    width: 50px;
+}
+
+.navigationcontainer {
+    height: 35px;
+    border: solid black 0.5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.headercontainer {
+    align-content: center;
+}
+
+.navigation_element {
+    margin-left: 20px;
+}
+
+.link {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 9px;
+    color: dimgray;
+}
+
+.link:hover {
+    color: palevioletred;
+}
