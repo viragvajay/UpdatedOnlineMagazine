@@ -104,6 +104,34 @@ li {
     width: 100%;
 }
 
+
+/*some container formatting*/
+
+.some {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.join {
+    text-align: center;
+    color: grey;
+}
+
+.social_icons {
+    justify-content: center;
+    display: flex;
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.icons {
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+}
+
 @media only screen and (min-width:680px) {
     .bigheading {
         font-size: 30px;
