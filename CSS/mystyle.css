@@ -152,6 +152,10 @@ p {
     padding: 8px border: solid black 0.2px;
 }
 
+.some_container {
+    margin-bottom: 50px;
+}
+
 .some {
     color: grey;
     margin: 10px;
