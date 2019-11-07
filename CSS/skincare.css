@@ -17,6 +17,10 @@
     margin: 10px;
 }
 
+.headercontainer {
+    align-content: center;
+}
+
 /*banner formatting*/
 .banner {
     width: 90%;
