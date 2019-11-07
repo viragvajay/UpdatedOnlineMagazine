@@ -82,6 +82,7 @@ p {
     padding-bottom: 5px;
 }
 
+
 .menubox_container {}
 
 
@@ -103,6 +104,7 @@ p {
     border: 0.2px solid gray;
     height: 80px;
     width: auto;
+    text-align: center;
     background-color: gainsboro;
     opacity: 80%;
     margin-bottom: 30px;
@@ -142,6 +144,10 @@ p {
 
 
 /*some container formatting*/
+
+.newsletter {
+    padding: 8px border: solid black 0.2px;
+}
 
 .some {
     color: grey;

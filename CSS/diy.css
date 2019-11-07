@@ -88,13 +88,21 @@ p1 {
     font-size: 5px;
 }
 
+.credit {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 5px;
+
+}
+
 .left_box {
     width: 70%;
     border: dotted black 0.2px;
     margin-right: 20px;
     padding-left: 2px;
     background-color: oldlace;
-    text-align: justify;
+    text-align: center;
 }
 
 .right_box {
@@ -108,6 +116,9 @@ p1 {
     height: 200px;
 }
 
+.newsletter {
+    padding: 8px
+}
 
 .some_container {
     padding-top: 10px;
