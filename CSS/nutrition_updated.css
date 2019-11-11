@@ -32,6 +32,11 @@
     border: solid black 0.5px;
 }
 
+.subtext {
+    font-weight: lighter;
+    font-style: normal;
+}
+
 .headercontainer {
     align-content: center;
     text-align: justify;
@@ -85,10 +90,6 @@
     font-family: "Helvetica Neue";
     font-weight: lighter;
     font-size: 10px;
-}
-
-p {
-    font-size: 6px;
 }
 
 .credit {

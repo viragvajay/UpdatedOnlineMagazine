@@ -24,6 +24,11 @@
     text-align: center;
 }
 
+.subtext {
+    font-weight: lighter;
+    font-style: normal;
+}
+
 .banner_container {
     padding: 10px;
     align-content: center;

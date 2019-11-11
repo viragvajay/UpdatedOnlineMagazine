@@ -51,6 +51,10 @@
     text-align: justify;
 }
 
+.subtext {
+    font-weight: lighter;
+    font-style: normal;
+}
 
 /*formatting of the left-box*/
 .left_box {
