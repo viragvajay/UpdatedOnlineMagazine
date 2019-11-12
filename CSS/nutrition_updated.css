@@ -166,3 +166,16 @@ li {
         margin-bottom: 10px;
     }
 }
+
+@media only screen and (min-width:680px) {
+    .article_text {
+        font font-size: 25px;
+        font-weight: 200;
+    }
+
+    .subheading {
+        font-size: 28px;
+        font-weight: 300;
+    }
+
+}
