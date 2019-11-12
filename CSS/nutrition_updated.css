@@ -178,4 +178,9 @@ li {
         font-weight: 300;
     }
 
+    .heading {
+        font-size: 35px;
+        margin: 60px;
+    }
+
 }
